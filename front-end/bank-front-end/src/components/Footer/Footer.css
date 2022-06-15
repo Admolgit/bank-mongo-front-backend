@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-top: 1px solid #01051a;
+  color:#01051a;
+}
+
+.about {
+  margin-top: -0.3rem;
+}
+
+.rows {
+  width: 1100px;
+  margin: auto;
+}
+
+.children a {
+  display: block;
+  margin-top: 0.5rem;
+  color: #01051a;
+}
+
+@media (max-width: 768px) {
+  .rows {
+    width: 400px;
+    margin: auto;
+  }
+
+  .children a {
+    display: flex;
+  }
+
+  .rows {
+    display: block;
+  }
+}

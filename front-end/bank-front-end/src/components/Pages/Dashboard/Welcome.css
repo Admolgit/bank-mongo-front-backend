@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dashboard {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  color: #4e515f;
+  text-align: center;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    font-weight: 100;
+  }
+}
