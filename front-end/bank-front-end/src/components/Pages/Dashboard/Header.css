@@ -1,0 +1,38 @@
+.contain {
+  background-color: #01051a;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  max-width: 1000px;
+  justify-content: space-between;
+  margin: auto;
+  padding: 20px;
+  color: #fff;
+}
+
+.header {
+  font-size: 40px;
+}
+
+.header-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.link {
+  margin-right: 2rem;
+}
+
+@media (max-width: 768px) {
+  .header-links a {
+    font-size: 16px;
+  }
+
+  .link {
+    margin-right: 0rem;
+  }
+}
